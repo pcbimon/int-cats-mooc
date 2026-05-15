@@ -1,4 +1,7 @@
 {
   "name": "int-cats-mooc-redirect",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "echo \"redirect only\""
+  }
 }

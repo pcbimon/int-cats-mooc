@@ -7,7 +7,7 @@
   "redirects": [
     {
       "source": "/:path*",
-      "destination": "https://int-cats.mahidol.ac.th",
+      "destination": "https://int-cats.mahidol.ac.th/:path*",
       "permanent": true
     }
   ]

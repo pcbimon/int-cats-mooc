@@ -1,13 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": null,
-  "installCommand": null,
-  "buildCommand": null,
-  "outputDirectory": null,
   "redirects": [
     {
-      "source": "/:path*",
-      "destination": "https://int-cats.mahidol.ac.th/:path*",
+      "source": "/(.*)",
+      "destination": "https://int-cats.mahidol.ac.th",
       "permanent": true
     }
   ]
